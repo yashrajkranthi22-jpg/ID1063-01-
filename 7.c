@@ -12,8 +12,8 @@ printf("%s\n", s);
 int main(){
 char s[100];  //declaring string
 char a,b;
-scanf(" %s", s);
+fgets(s,sizeof(s),stdin);
 scanf(" %c", &a);
 scanf(" %c", &b);
-swap(s,a,b);
+swap(s,a,b);  //calling swap
 return 0;}
